@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900&display=swap");
+@font-face {
+  font-family: "icons";
+  font-display: swap;
+  src: url("../fonts/icons.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+._icon-fb:before {
+  content: "\e900";
+}
+
+._icon-insta:before {
+  content: "\e901";
+}
+
+._icon-linkedin:before {
+  content: "\e902";
+}
+
+._icon-twitter:before {
+  content: "\e903";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 856px;
+  margin: 0 auto;
+}
+@media (max-width: 868px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
