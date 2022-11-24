@@ -8,9 +8,9 @@
   }
 
   &__menu {
-    height: 82px;
+    height: 89px;
     @media (max-width: $md3) {
-      height: 50px;
+      height: 72px;
     }
   }
 }
@@ -24,16 +24,17 @@
       top: 0;
       left: 0;
       overflow: auto;
-      padding: 0 10px 0;
+      padding: 0 15px 0;
       &.active {
         z-index: 5;
         transition: background-color 0.5s ease;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.8);
       }
     }
   }
 
   &__icon {
+    display: none;
     margin-top: 20px;
     margin-left: auto;
   }
@@ -70,7 +71,6 @@
     font-size: 20px;
     font-weight: 500;
     color: #000;
-    font-family: $fontFamily;
     transition: color 0.3s ease 0s;
     @media (min-width: $md2) {
       &:hover {
@@ -129,8 +129,4 @@
       }
     }
   }
-}
-
-.hidden {
-  display: none;
 }

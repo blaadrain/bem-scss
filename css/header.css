@@ -4,11 +4,11 @@
   margin: 0 auto;
 }
 .header__menu {
-  height: 82px;
+  height: 89px;
 }
 @media (max-width: 767.98px) {
   .header__menu {
-    height: 50px;
+    height: 72px;
   }
 }
 
@@ -20,16 +20,17 @@
     top: 0;
     left: 0;
     overflow: auto;
-    padding: 0 10px 0;
+    padding: 0 15px 0;
   }
   .menu__body.active {
     z-index: 5;
     -webkit-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
   }
 }
 .menu__icon {
+  display: none;
   margin-top: 20px;
   margin-left: auto;
 }
@@ -75,7 +76,6 @@
   font-size: 20px;
   font-weight: 500;
   color: #000;
-  font-family: "Heebo";
   -webkit-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
 }
@@ -136,8 +136,4 @@
     -webkit-transform: rotate(45deg) translate(0, 50%);
             transform: rotate(45deg) translate(0, 50%);
   }
-}
-
-.hidden {
-  display: none;
 }
