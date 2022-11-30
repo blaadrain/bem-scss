@@ -12,3 +12,12 @@
   font-size: 16px;
   line-height: 23 / 16 * 100%;
 }
+.post-title {
+  font-size: 22px;
+  @media (max-width: $md3) {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 0px;
+  }
+}
