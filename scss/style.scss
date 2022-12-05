@@ -8,6 +8,7 @@
 @import 'home';
 @import 'works';
 @import 'footer';
+@import 'blog';
 
 * {
   margin: 0;
@@ -18,6 +19,9 @@
 body {
   color: #21243d;
   font-family: $fontFamily;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
