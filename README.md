@@ -1,1 +1,1 @@
-# Figma landing project with bem and scss
+# Project from figma with bem and scss
