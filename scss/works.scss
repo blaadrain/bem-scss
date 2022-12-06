@@ -1,12 +1,26 @@
 @import 'variables';
 
 .works {
+  &__title {
+    margin: 0 0 55px 0;
+    @media (max-width: $md3) {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  &__items {
+    padding: 0 0 80px 0;
+    @media (max-width: $md3) {
+      padding: 0 0 40px 0;
+    }
+  }
+
   &__item {
     padding: 0 0 30px 0;
     margin: 0 0 30px 0;
     border-bottom: 1px solid #e0e0e0;
     &:last-child {
-      margin: 0 0 0 0; 
+      margin: 0 0 0 0;
     }
     @media (min-width: $md3) {
       display: flex;
@@ -43,7 +57,7 @@
     }
   }
 
-  &__title {
+  &__name {
     color: inherit;
     font-size: 30px;
     line-height: 44 / 30 * 100%;
